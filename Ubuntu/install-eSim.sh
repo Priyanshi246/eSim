@@ -4,7 +4,7 @@
 # 
 #         USAGE: ./install-eSim.sh --install 
 #                            OR
-#                ./install-eSim.sh --uninstall
+               # ./install-eSim.sh --uninstall
 #                
 #   DESCRIPTION: Installation script for eSim EDA Suite
 #
@@ -12,7 +12,7 @@
 #  REQUIREMENTS: ---
 #          BUGS: ---
 #         NOTES: ---
-#       AUTHORS: Fahim Khan, Rahul Paknikar, Saurabh Bansode,
+#       AUTHORS: Priyanshi Jain, Fahim Khan, Rahul Paknikar, Saurabh Bansode,
 #                Sumanto Kar, Partha Singha Roy, Jayanth Tatineni,
 #                Anshul Verma, Shiva Krishna Sangati, Harsha Narayana P
 #  ORGANIZATION: eSim Team, FOSSEE, IIT Bombay
@@ -67,7 +67,7 @@ run_version_script() {
 # Validate argument
 if [[ $# -ne 1 ]]; then
     echo "Usage: $0 --install | --uninstall"
-    exit 1
+    # exit 1
 fi
 
 ARGUMENT=$1
